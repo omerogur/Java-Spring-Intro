@@ -5,13 +5,13 @@ public class StudentManager extends UserManager {
 	
 	public void add(Student std) {
 
-		System.out.println(std.getFirstName() + " isimli üyelik oluþturuldu");
+		System.out.println(std.getFirstName() + " isimli öðrenci oluþturuldu");
 
 	}
 
 	public void delete(Student std) {
 
-		System.out.println(std.getFirstName() + " isimli üyelik silindi");
+		System.out.println(std.getFirstName() + " isimli öðrenci silindi");
 	}
 
 }

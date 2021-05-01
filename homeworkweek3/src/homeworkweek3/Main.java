@@ -4,14 +4,7 @@ public class Main {
 	
 	public static void main(String [] args) {
 		
-		User user = new User();
-		user.age=18;
-		user.email="mail";
-		user.firstName="ömer";
-		user.lastName="oğur";
-		user.id=1;
-		user.password="örneksifre";
-		user.username="kullanıcıadi";
+		
 		
 		Instructor ins = new Instructor();
 		ins.firstName="engin";
@@ -36,13 +29,12 @@ public class Main {
 				
 		
 		
-		UserManager usermanager = new UserManager();
+		
 		InstructorManager is = new InstructorManager();
 		StudentManager stdmanager = new StudentManager();
-		usermanager.add(user);
+		
 		stdmanager.add(student);
 		is.add(ins);
-		usermanager.delete(user);
 		stdmanager.delete(student);
 		is.delete(ins);
 		
